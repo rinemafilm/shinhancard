@@ -1,0 +1,211 @@
+/* ---- */
+.cardWrap{
+    max-width: 1200px;
+    padding-top: 136px;
+    margin: 0 auto;
+}
+
+.firstBox{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 103px;
+}
+
+/* INFOBOX */
+
+.infoBox{
+    margin-top: 78px;
+    margin-bottom:  20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GosimBG{
+    width: 425px;
+    background: url(../images/bg_card_plate.png) no-repeat center;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+}
+
+.gosimSlide{
+    width: 190px;
+    top: 15px;
+}
+
+.gosimImg img{
+    width: 190px;
+}
+
+.gosimArrow{
+    position: absolute;
+    display: flex;
+    gap: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gosimArrow img{
+    width: 40px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.gosimSlide .slick-dots{
+    bottom: -50px;
+}
+
+.gosimInfo{
+    width: 345px;
+    padding-left: 15px;
+}
+
+.gosimName h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.gosimMent{
+    margin-top: 20px;
+}
+
+.gosimMent h5{
+    font-size: 24px;
+}
+
+.gosimBonus{
+    margin-top: 30px;
+}
+
+.bonusIcon li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.bonusIcon li img{
+    width: 35px;
+}
+
+.bonusIcon li span{
+    font-weight: 500;
+}
+
+.gosimLink{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.gosimLink img{
+    width: 35px;
+}
+
+.gosimSlide .slick-dots{
+    bottom: -40px;
+}
+
+.gosimSlide .slick-dots li{
+    width: 12px; 
+    height: 12px;
+    border-radius: 15px;
+    background-color: #DDDDDD;
+    border: 3px solid #EEEEEE; 
+}
+
+.gosimSlide .slick-dots li.slick-active{
+    width: 12px; 
+    height: 12px;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    border: 3px solid #111111; 
+    transition: all 0.3s;
+}
+
+.gosimSlide .slick-dots li button:before{
+    font-size: 0;
+}
+
+/* ONLINEBTN */
+.onlineBtn{
+    width: 200px;
+    height: 55px;
+    background-color: #486EFF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px 55px;
+    cursor: pointer;
+}
+
+/* INFOTABLE */
+.infoTable{
+    margin: 84px 72px 0;
+}
+
+.infoTitle{
+    border-top: 1px solid #ddd;
+}
+
+.year{
+    border-bottom: 1px solid #ddd;
+}
+
+/* .yearTitle{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.infoTitle h2{
+    font-size: 20px;
+    padding: 16px 30px;
+}
+
+/* .yearArrow img{
+    width: 16px;
+} */
+
+.bank{
+
+}
+
+.infoNotice{
+
+}
+
+/* CARDMENU */
+.cardMenu{
+
+}
+
+/* ---- */
+.Wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    background: #F4F7FC;
+    padding: 0 103px;
+}
+
+/* SEEBOX */
+.seeBox{
+
+}
+
+/* SERVICEINFO */
+.serviceInfo{
+
+}
+
+/* 아코디언 테스트 */

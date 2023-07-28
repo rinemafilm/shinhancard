@@ -1,0 +1,420 @@
+.Wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 136px;
+}
+.contentWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* FIRSTBOX */
+.cardWrap{
+    max-width: 1200px;
+    padding-top: 136px;
+    margin: 0 auto;
+}
+
+.firstBox{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 103px;
+}
+
+.infoBox{
+    margin-top: 78px;
+    margin-bottom:  20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* GOSIM */
+
+.GosimBG{
+    width: 425px;
+    background: url(../images/bg_card_plate.png) no-repeat center;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+}
+
+.gosimSlide{
+    width: 190px;
+    top: 15px;
+}
+
+.gosimImg img{
+    width: 190px;
+}
+
+.gosimArrow{
+    position: absolute;
+    display: flex;
+    gap: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gosimArrow img{
+    width: 40px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.gosimSlide .slick-dots{
+    bottom: -50px;
+}
+
+.gosimInfo{
+    width: 345px;
+    padding-left: 15px;
+}
+
+.gosimName h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.gosimMent{
+    margin-top: 20px;
+}
+
+.gosimMent h5{
+    font-size: 24px;
+}
+
+.gosimBonus{
+    margin-top: 30px;
+}
+
+.bonusIcon li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.bonusIcon li img{
+    width: 35px;
+}
+
+.bonusIcon li span{
+    font-weight: 500;
+}
+
+.gosimLink{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.gosimLink img{
+    width: 35px;
+}
+
+.gosimSlide .slick-dots{
+    bottom: -40px;
+}
+
+.gosimSlide .slick-dots li{
+    width: 12px; 
+    height: 12px;
+    border-radius: 15px;
+    background-color: #DDDDDD;
+    border: 3px solid #EEEEEE; 
+}
+
+.gosimSlide .slick-dots li.slick-active{
+    width: 12px; 
+    height: 12px;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    border: 3px solid #111111; 
+    transition: all 0.3s;
+}
+
+.gosimSlide .slick-dots li button:before{
+    font-size: 0;
+}
+
+
+/* ONLINEBTN */
+.onlineBtn{
+    width: 200px;
+    height: 55px;
+    background-color: #486EFF;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px 55px;
+    cursor: pointer;
+}
+
+/* INFOTABLE */
+.accordion{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 84px;
+    margin-bottom: 50px;
+}
+
+.acco_box h3{
+/* background-color: #ddd; */
+padding: 15px 30px;
+cursor: pointer;
+position: relative;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.acco_box  h3::after {
+content: '';
+position: absolute;
+top: 24px;
+right: 16px;
+width: 10px;
+height: 10px;
+border-right: 1px solid #333;
+border-bottom: 1px solid #333;
+transform: rotate(225deg);
+transition: transform 0.2s;
+}
+
+.acco_box  h3.active{
+border-top: 1px solid #111;
+}
+
+.acco_box h3.active::after {
+transform: rotate(45deg);
+transition: transform 0.2s;
+}
+
+.text{
+width: 790px;
+padding: 13px 0 0;
+margin: 0 auto;
+display: none;
+}
+
+.colgroup{
+display: table-column-group;
+}
+
+.year{
+width: 100%;
+}
+
+.year thead tr{
+font-size: 13px;
+text-align: center;
+}
+
+.year thead tr th{
+font-weight: 400;
+color: #111;
+padding: 13px 0;
+border-bottom: 1px solid #ddd;
+}
+
+.year tbody tr td{
+text-align: center;
+font-size: 13px;
+}
+
+.cardBrand img{
+display: inline-block;
+width: 44px;
+height: 23px;
+vertical-align: middle;
+}
+
+.cardEct td{
+padding: 10px 0;
+}
+
+.notiBold{
+font-weight: 600;
+}
+
+.infoNoticeList li{
+margin-bottom: 10px;
+position: relative;
+padding: 0 0 0 12px;
+font-size: 14px;
+}
+
+.infoNoticeList li::before{
+content: '';
+display: block;
+position: absolute;
+left: 0;
+top: 9px;
+width: 3px;
+height: 3px;
+border-radius: 50%;
+background-color: #111;
+}
+
+/* CARDMENU */
+.cardMenu{
+    display: flex;
+    /* gap: 28px; */
+}
+
+.cardMenu li{
+    padding: 10px 13px;
+    font-size: 20px;
+    color: #CCCCCC;
+}
+
+.menuChoice{
+    font-weight: 600;
+    border-bottom: 3px solid #000;
+    color: #000 !important;
+}
+
+/* ---- */
+.SeeBg{
+    background: #F4F7FC;
+}
+
+.seeWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 103px;
+}
+
+/* SEEBOX */
+.seeBoxWrap{
+    padding: 60px 0;
+}
+
+.seeBox{
+    background-color: #fff;
+    width: 995px;
+    /* height: 150px; */
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 10px;
+}
+
+.seeIcon img{
+    width: 110px;
+}
+
+.seeText h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.seeText ul li{
+    font-size: 14px;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.seeText ul li:last-child{
+    margin-bottom: 0px;
+}
+
+.seeText ul li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #111;
+}
+/* SERVICEINFO */
+.serviceInfo{
+
+}
+
+.service_box h3{
+padding: 15px 0px;
+cursor: pointer;
+position: relative;
+}
+
+.service_box h3::after {
+content: '';
+position: absolute;
+top: 16px;
+right: 16px;
+width: 10px;
+height: 10px;
+border-right: 1px solid #333;
+border-bottom: 1px solid #333;
+transform: rotate(225deg);
+transition: transform 0.2s;
+}
+
+.service_box h3.active::after {
+transform: rotate(45deg);
+transition: transform 0.2s;
+}
+
+.servictext{
+padding: 13px 0 0;
+margin: 0 auto;
+display: none;
+}
+
+.serviceNotice{
+padding-bottom: 20px;
+}
+
+.serviceNoticeList li{
+margin-bottom: 10px;
+position: relative;
+font-size: 14px;
+}
+
+.serviceNoticeList li:last-child{
+padding: 0 0 0 12px;
+}
+
+.serviceNoticeList li:last-child:before{
+content: '';
+display: block;
+position: absolute;
+left: 0;
+top: 9px;
+width: 3px;
+height: 3px;
+border-radius: 50%;
+background-color: #111;
+}
+
+.lastInfo{
+    padding-top: 15px;
+    padding-bottom: 60px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.lastInfo li{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.lastInfo li:last-child{
+    font-weight: 500;
+    margin-bottom: 0px;
+}

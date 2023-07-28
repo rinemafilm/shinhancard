@@ -1,0 +1,40 @@
+<div class="headerMenu">
+    <div class="logo">
+        <a href="../pages/main.html"><img src="../images/logo.png"></a>
+    </div>
+    <ul class="menu">
+        <li><a href="../pages/cardlist.html">마이</a></li>
+        <li><a href="../pages/cardlist.html">혜택</a></li>
+        <li><a href="../pages/cardlist.html">금융</a></li>
+        <li><a href="../pages/cardlist.html">카드</a></li>
+        <li><a href="../pages/cardlist.html">서비스</a></li>
+        <li><a href="../pages/cardlist.html">디지털</a></li>
+        <li><a href="../pages/cardlist.html">Tops Club</a></li>
+        <li><a href="../pages/cardlist.html">고객센터</a></li>
+    </ul>
+    <div class="icon">
+        <a href="#" class="bars"><img src="../images/icon_bars.png"></a>
+    </div>
+    <div class="scroll">
+        <a href="#" class="searchBtn"><img src="../images/icon_search.png"></a>
+        <a href="#"><img src="../images/icon_bars.png"></a>
+    </div>
+</div>
+
+<script>
+    $(window).scroll(function () {
+        // console.log($(this).scrollTop());
+        if ($(this).scrollTop() > 10) {
+            $('.icon').hide()
+            $('.scroll').show()
+        } else {
+            $('.icon').show()
+            $('.scroll').hide()
+        }
+    })
+
+    // $('.menu li').click(function(){
+    //     $('.menu li').removeClass('active')
+    //     $(this).addClass('active')
+    // })
+</script>

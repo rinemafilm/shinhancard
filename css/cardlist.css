@@ -1,0 +1,254 @@
+.Wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 136px;
+}
+.contentWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* NEW CARD */
+.newCard{
+    height: 480px;
+    background: #F4F7FC;
+}
+
+.newCardWrap{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.newCard1{
+    flex: 1;
+    margin-top: 60px;
+}
+
+.whatNewWrap{
+    background: #fff;
+    margin-top: 36px;
+    box-shadow: 0px 0px 12px 0px #D9D9D9;
+    border-radius: 10px;
+    padding: 40px 0px;
+    width: 790px;
+    cursor: pointer;
+}
+
+
+.whatNewWrap .slick-dots{
+    bottom: -40px;
+}
+
+.whatNewWrap .slick-dots li{
+    width: 5px; 
+    height: 4px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.whatNewWrap .slick-dots li.slick-active{
+    width: 14px; 
+    height: 4px;
+    border-radius: 3px;
+    background-color: rgb(58,59,90); 
+    transition: all 0.3s;
+}
+
+.whatNewWrap .slick-dots li button:before{
+    font-size: 0;
+}
+
+.cardSlide{
+    position: relative;
+}
+
+.cardArrow{
+    position: absolute;
+    display: flex;
+    gap: 680px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cardArrow img{
+    width: 40px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.whatNew{
+    width: 790px;
+    margin : 0 125px;
+}
+
+.whatNew li a{
+    display: flex;
+}
+
+.newInfoBox{
+    margin-left: 90px;
+    width: 330px;
+}
+
+.newName{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.newInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newInfo1 li{
+    margin-bottom: 10px;
+    color: #696969;
+}
+
+.newInfo1 li:last-child{
+    margin-bottom: 0px;
+}
+
+.newInfo2 li{
+    justify-content: right;
+}
+
+.newInfo2 li{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.newInfo2 li:last-child{
+    margin-bottom: 0px;
+}
+
+.cardI img{
+    width: 120px;
+}
+
+.newCard2{
+    width: 395px;
+    margin-top: 60px;
+    padding-left: 15px;
+}
+.ofenBoxWrap{
+    background: #fff;
+    margin-top: 36px;
+    box-shadow: 0px 0px 12px 0px #D9D9D9;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.ofenBox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.ofenBox li{
+    text-align: center;
+    cursor: pointer;
+}
+
+.ofenBox li:nth-child(2){
+    border-left: 1px solid #EEEEEE;
+}
+
+.ofenBox li:nth-child(3){
+    border-top: 1px solid #EEEEEE;
+}
+
+.ofenBox li:nth-child(4){
+    border-top: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
+.ofenImg{
+    margin-top: 25px;
+}
+
+.ofenImg img{
+    width: 30px;
+}
+
+.ofenText{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.ofenImg a{
+    transition: all 0.3s ease-out;
+}
+
+.ofenImg a:hover img{
+    transform: translateY(-2px);
+}
+
+
+/* RECARD */
+.reCard{
+    padding-top: 62px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.cardList{
+    display: flex;
+    gap: 48px;
+    margin-top: 30px;
+}
+
+.cardImg{
+    width: 160px;
+    height: 255px;
+}
+
+.cardimag img{
+    width: 160px;
+    height: 255px;
+}
+
+.cardList a{
+    transition: all 0.3s ease-out;
+}
+
+.cardList a:hover img{
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 10px 0px #E9E9E9;
+}
+
+.cardText{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* SHOW */
+
+.cardShow{
+    padding-top: 62px;
+    padding-bottom: 70px;
+}
+
+.showList{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.showList li{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 12px 30px;
+    width: 380px;
+    background: url(../images/right\ arrow.png) no-repeat 95%;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
