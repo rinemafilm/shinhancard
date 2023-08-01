@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="head"></div>
-        <div class="headMenu"></div>
+        <div class="headMenuVer2"></div>
     </header>
 
     <div class="cardWrap">
@@ -120,13 +120,14 @@
                     </div>
                 </div>
             </div>
-
-            <ul class="cardMenu">
-                <li class="menuChoice">한눈에 보기</li>
-                <li>대중교통 이용시 적립(Way 체크)</li>
-                <li>생활편의영역 이용시 적립</li>
-                <li>해외 이용금액 적립</li>
-            </ul>
+            <div class="cardMenuSlid">
+                <ul class="cardMenu">
+                    <li class="menuChoice">한눈에 보기</li>
+                    <li>대중교통 이용시 적립(Way 체크)</li>
+                    <li>생활편의영역 이용시 적립</li>
+                    <li>해외 이용금액 적립</li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -287,6 +288,11 @@
             $('.service_box').find('.servictext').slideUp()
             $(this).addClass('active').next().slideDown()
         }
+    })
+
+    $('.cardMenu li').click(function(){
+        $('.cardMenu li').removeClass('menuChoice')
+        $(this).addClass('menuChoice')
     })
     </script>
 </body>

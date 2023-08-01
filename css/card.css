@@ -270,6 +270,7 @@ background-color: #111;
 .cardMenu{
     display: flex;
     /* gap: 28px; */
+    margin-left: 25px;
 }
 
 .cardMenu li{

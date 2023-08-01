@@ -75,6 +75,17 @@ header{
     height: 80px;
 }
 
+.headerMenu2{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 26px 0;
+    height: 80px;
+    margin: 0 auto;
+}
+
 .headerMenu img{
     margin-top: 4px;
 }

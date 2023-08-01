@@ -1,4 +1,4 @@
-<div class="headerMenu">
+<div class="headerMenu2">
     <div class="logo">
         <a href="../pages/main.html"><img src="../images/logo.png"></a>
     </div>
@@ -13,23 +13,10 @@
         <li><a href="../pages/cardlist.html">고객센터</a></li>
     </ul>
     <div class="icon">
+        <a href="#" class="searchBtn"><img src="../images/icon_search.png"></a>
         <a href="#" class="bars"><img src="../images/icon_bars.png"></a>
     </div>
     <div class="scroll">
-        <a href="#" class="searchBtn"><img src="../images/icon_search.png"></a>
         <a href="#"><img src="../images/icon_bars.png"></a>
     </div>
 </div>
-
-<script>
-    $(window).scroll(function () {
-        // console.log($(this).scrollTop());
-        if ($(this).scrollTop() > 10) {
-            $('.icon').hide()
-            $('.scroll').show()
-        } else {
-            $('.icon').show()
-            $('.scroll').hide()
-        }
-    })
-</script>
