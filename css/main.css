@@ -108,18 +108,19 @@
 }
 
 .eventBanner{
-    display: flex;
-    gap: 60px;
+    /* display: flex;
+    gap: 60px; */
 }
 
 .eventBanner li{
-    display: flex;
+    display: flex !important;
     align-items: center;
     width: 350px;
     height: 170px;
     background-color: #EEEEEE;
     border-radius: 5px;
     padding-left: 30px;
+    margin-right: 50px;
 }
 
 .bannerT{
@@ -133,7 +134,7 @@
 }
 
 .bannerImg{
-    transform: translateX(30px);
+    transform: translateX(40px);
 }
 
 .arrow{
@@ -142,7 +143,7 @@
     position: absolute;
     top: 50%;
     left: -20px;
-    transform: translateY(-50%);
+    transform: translateY(-90%);
 }
 
 .arrow img{
@@ -163,7 +164,7 @@
     height: 4px;
     border-radius: 10px;
     background-color: #eee;
-
+    display: inline-block !important;
 }
 
 .Slide .slick-dots li.slick-active{

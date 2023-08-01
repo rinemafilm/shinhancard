@@ -120,21 +120,21 @@
                             <div class="bannerT">그린카 카세어링<br>무료시승 이벤트</div>
                             <div class="bannerImg"><img src="../images/banner_live.png" alt=""></div>
                         </li>
-                    </ul>
-                </div>
-                <div class="eventSlide">
-                    <ul class="eventBanner">
-                        <li>
-                            <div class="bannerT">혼수 · 이사<br>스탬프받고<br>5만원 캐시백!</div>
-                            <div class="bannerImg"><img src="../images/banner_cashback.png" alt=""></div>
-                        </li>
-                        <li>
-                            <div class="bannerT">그린카 카세어링<br>무료시승 이벤트</div>
-                            <div class="bannerImg"><img src="../images/banner_live.png" alt=""></div>
-                        </li>
                         <li>
                             <div class="bannerT">메가박스<br>온라인예매</br>최대 8천원 할인</div>
                             <div class="bannerImg"><img src="../images/banner_mega.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="bannerT">지방세<br>편하게 납부하고<br>10만 포인트 받기!</div>
+                            <div class="bannerImg"><img src="../images/banner_mbp.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="bannerT">결제계좌 변경하고<br>6천원 개시백 받자!<br></div>
+                            <div class="bannerImg"><img src="../images/banner_cash.png" alt=""></div>
+                        </li>
+                        <li>
+                            <div class="bannerT">몸만가<br>캐리어/캐디백 운반<br>7만원 할인</div>
+                            <div class="bannerImg"><img src="../images/banner_hotbn.png" alt=""></div>
                         </li>
                     </ul>
                 </div>
@@ -305,6 +305,16 @@
         $('.cardListWrap ul').eq($(this).index()).show()
     })
 
+    $('.eventSlide ul').slick({
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow : $('.Next'),
+        prevArrow : $('.Prev'),
+        autoplay: true,
+        autoplaySpeed: 4000
+    })
+
 
     $('.slide').slick({
         dots: true,
@@ -314,13 +324,6 @@
         autoplaySpeed: 50000000
     })
 
-    $('.Slide').slick({
-        dots: true,
-        nextArrow : $('.Next'),
-        prevArrow : $('.Prev'),
-        autoplay: true,
-        autoplaySpeed: 50000000
-    })
 
     $(window).scroll(function () {
         // console.log($(this).scrollTop());
